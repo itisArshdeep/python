@@ -8,6 +8,6 @@ for i in range(1, 365):
         with open('file.txt','a') as file:
             file.write(d)
             os.system('git add .')
-            os.system('git commit --date="'2020 +d +'" -m "commit"')
+            os.system('git commit --date="2020 +d +'" -m "commit"')
 
             os.system('git push -u origin main')
